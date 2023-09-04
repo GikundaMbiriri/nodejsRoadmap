@@ -1,0 +1,25 @@
+{
+  "name": "nodejsroadmap",
+  "version": "1.0.0",
+  "description": "A project to cover the nodejs roadmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "author": "Gikunda Mbiriri",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0"
+  }
+}
